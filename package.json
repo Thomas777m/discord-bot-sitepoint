@@ -5,16 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "node index.js"
   },
-  "author": "Michiel Mulders",
+  "author": "thomas-martin",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "node": "^14.5.0"
   },
-  
-    "engines": {
-    "node": "10.x",
-    "npm": "*"
+  "engines": {
+    "node": "12.18.1"
   }
 }
